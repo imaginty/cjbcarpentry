@@ -29,7 +29,7 @@ form.addEventListener("submit", function (e) {
         result.classList.add("success-message-2");
       } else {
         console.log(response);
-        result.innerHTML = Something went wrong...;
+        result.innerHTML = "Something went wrong...";
         result.classList.remove("pending");
         result.classList.add("error-message-2");
       }
