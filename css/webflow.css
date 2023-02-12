@@ -323,16 +323,16 @@ label {
   font-weight: bold;
 }
 
-pending {
+.pending {
   margin-top: 10px;
 }
 
-success-message-2 {
+.success-message-2 {
   color: #1ecb1e;
   margin-top: 10px;
  }
 
-error-message-2 {
+.error-message-2 {
   color: red;
   margin-top: 10px;
 }
