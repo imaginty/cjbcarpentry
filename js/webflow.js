@@ -24,14 +24,14 @@ form.addEventListener("submit", function (e) {
     .then(async (response) => {
       let json = await response.json();
       if (response.status == 200) {
-        result.innerHTML = json.message;
-        result.classList.remove("text-gray-500");
-        result.classList.add("text-green-500");
+        result.innerHTML = "Thank you for your message. I will get back to you as soon as possible.";
+        result.classList.remove("pending");
+        result.classList.add("success-message-2");
       } else {
         console.log(response);
-        result.innerHTML = json.message;
-        result.classList.remove("text-gray-500");
-        result.classList.add("text-red-500");
+        result.innerHTML = Something went wrong...;
+        result.classList.remove("pending");
+        result.classList.add("error-message-2");
       }
     })
     .catch((error) => {

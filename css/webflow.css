@@ -322,6 +322,21 @@ label {
   margin-bottom: 5px;
   font-weight: bold;
 }
+
+pending {
+  margin-top: 10px;
+}
+
+success-message-2 {
+  color: #1ecb1e;
+  margin-top: 10px;
+ }
+
+error-message-2 {
+  color: red;
+  margin-top: 10px;
+}
+
 .w-input,
 .w-select {
   display: block;
