@@ -25,12 +25,12 @@ form.addEventListener("submit", function (e) {
       let json = await response.json();
       if (response.status == 200) {
         result.innerHTML = json.message;
-        result.classList.remove("text-gray-500");
+        result.classList.remove("text-white");
         result.classList.add("text-green-500");
       } else {
         console.log(response);
         result.innerHTML = json.message;
-        result.classList.remove("text-gray-500");
+        result.classList.remove("text-white");
         result.classList.add("text-red-500");
       }
     })
