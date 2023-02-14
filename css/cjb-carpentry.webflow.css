@@ -296,6 +296,7 @@ ul {
 }
 
 .testimonials-wrapper {
+  margin-top: 60px;
   margin-bottom: 140px;
 }
 
@@ -331,6 +332,7 @@ ul {
   font-size: 18px;
   line-height: 22px;
   font-weight: 300;
+  margin-bottom: 30px;
 }
 
 .calum {
